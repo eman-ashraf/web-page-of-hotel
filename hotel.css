@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* .................. Home Page ............................. */
+.countainer{
+    width: 1200px;
+    padding: 0px 20px;
+    margin: auto;
+    overflow: auto;
+}
+.navbar{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.countainer h1 a{
+    float: left;
+    color: white;
+    padding: 20px;  
+}
+.countainer ul li  {
+    float: left;
+}
+.countainer ul li a {
+    color: white;
+    padding: 25px;
+}
+a {
+    text-decoration: none;
+}
+.countainer ul{
+    list-style: none;
+    padding-top: 25px;
+    float: right;
+}
+.countainer ul li a:hover,
+.countainer ul li a.active {
+    background-color: #444;
+    color: yellow;
+}
+.background{
+    background-image: url("127216875_2880118585557403_8688807304586851135_n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+color: white;
+}
+.head{
+    font-size: 80px;
+    padding-top: 200px;
+    text-transform: capitalize;
+}
+.prag{
+    font-size: 20px;
+}
+.btn-back{
+    background-color: black;
+    padding: 20px 20px;
+    margin: 20px;
+}
+.btn-back:hover{
+    background-color: #444;
+}
+.btn-back:hover a{
+    color: chartreuse;
+}
+.btn-back a{
+    color: white;
+    font-size: 20px;
+}
+.img{
+    background-image: url("download.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 50% ;
+    float: left;
+}
+.information{
+    text-align: center;
+    background-color: #444;
+    height: 400px;
+}
+.information h1{
+    font-size: 30px;
+    padding-top: 30px;
+    text-transform: capitalize;
+    color: white;
+}
+.information p{
+    color: white;
+    font-size: 15px;
+    padding-top: 15px;
+}
+.information button{
+    background-color: white;
+    padding: 20px 20px;
+    margin: 20px;
+}
+.information button:hover{
+    background-color: violet;
+}
+span{
+    color: orange;
+}
+.loc{
+    width: 33.3333%;
+   float: left;
+   text-align: center;
+    padding: 50px;
+    height: 200px;
+}
+.fit{
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+    padding: 50px;
+    height: 200px;
+}
+.meal{
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+    padding: 50px;
+    background-color: sandybrown;
+    height: 200px;
+}
+.footer{
+    overflow: hidden;
+    text-align: center;
+    padding: 30px;
+    background-color: #333333;
+}
+/* ................... about page ................ */
+.text{
+    float: left;
+    width: 50%;
+    text-transform: capitalize;
+    overflow: hidden;
+    margin: 20px 20px;
+}
+.text h1{
+    font-size: 50px;
+}
+.img2{
+    float: right;
+    width: 50%;
+    overflow: hidden;
+    border-radius: 50%;
+    height: 260px;
+    width: 300px;
+    margin: 50px 50px; 
+    overflow: hidden;
+}
+.feedback{
+    background-image:url(25166C4355A210B43A.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.feedback h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.person1{
+    background-color: salmon;
+height: 110px;
+    margin:20px 20px;
+    
+}
+.person1 img{
+    float: left;
+    border-radius: 50%;
+    padding: 10px 30px;
+    width: 10%;
+}
+.person2{
+    background-color: salmon;
+height: 110px;
+    margin:20px 20px;
+    
+}
+.person2 img{
+    float: left;
+    border-radius: 50%;
+    padding: 10px 30px;
+    width: 10%;
+}
+/* .............contact page .............. */
+.contact{
+    margin: 50px 90px;
+    overflow: hidden;
+}
+.contact h1{
+    font-size: 50px;
+    padding: 20px;
+}
+.contact p{
+    margin: 10px;
+}
+.contact label{
+    font-size: 30px;
+    padding: 10px;
+}
+.contact input{
+    width: 70%;
+    height: 30px;  
+}
+.contact button{
+    background-color: #333333;
+    color: white;
+    font-size: 30px;
+    width: 150px;
+    height: 50px;
+    margin: 30px;
+}
+button:hover
+{
+    color: chartreuse;
+    background-color: rgb(19, 0, 128);
+}
